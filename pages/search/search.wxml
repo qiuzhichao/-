@@ -1,0 +1,13 @@
+<!--pages/person/person.wxml-->
+<view class="search">
+    <view class="search-top">
+        <input type="text" placeholder="粘贴淘宝宝贝标题领取优惠券"/>
+    </view>
+    <view class="list">
+        <view class="list_item" wx:for="{{something}}" wx:key="item">
+            <image src="{{item.extimg}}" />
+            <view class="item_title">{{item.name}}</view>
+        </view>
+    </view>
+    <view class="none">我也是有底线的</view>
+</view>
