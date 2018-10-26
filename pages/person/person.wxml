@@ -1,0 +1,38 @@
+<!--pages/person/person.wxml-->
+<view class="person">
+    <view class="person_image">
+        <image src="{{personData.headimgurl}}" mode="cover"/>
+        <view class="perosn_desc">购物就有奖</view>
+    </view>
+    <view class="person_money">
+        <view class="person_money_l">
+            <view class="cash_num">{{personData.point}}</view>
+            <view class="cash_desc">当前积分</view>
+            <view class="cash_btn">提现</view>
+        </view>
+        <view class="person_money_r">
+            <view class="cash_num">{{personData.total_point_money}}</view>
+            <view class="cash_desc">累计赚取(100积分=1元)</view>
+            <view class="cash_btn">明细</view>
+        </view>
+    </view>
+    <view class="TB_orders">
+        <view class="TB_title">淘宝订单</view>
+        <view class="TB_more">查询订单></view>
+    </view>
+    <view class="order_mess">
+        <view class="mess_btn">追踪中(0)</view>
+        <view class="mess_btn">开奖中(0)</view>
+        <view class="mess_btn">已中奖(0)</view>
+    </view>
+    <view class="friends">
+        <view class="friends_desc">我邀请的好友(0/0)</view>
+        <view class="friends_right">></view>
+    </view>
+    <view class="person_more">
+        <view class="person_more_list">购买开奖规则</view>
+        <view class="person_more_list">分享赚规则</view>
+        <view class="person_more_list">修改提现信息</view>
+        <view class="person_more_list">联系客服</view>
+    </view>
+</view>

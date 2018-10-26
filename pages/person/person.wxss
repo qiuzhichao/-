@@ -1,0 +1,132 @@
+/* pages/person/person.wxss */
+.person_image{
+    width: 100%;
+    height: 320rpx;
+    background-color: #fd0c3f;
+    overflow: hidden;
+}
+.person_image>image{
+    display: block;
+    width: 144rpx;
+    height: 144rpx;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50rpx;
+    margin-bottom: 18rpx;
+}
+.perosn_desc{
+    text-align: center;
+    color: #fff;
+    font-size: 28rpx;
+    margin-top: 18rpx;
+}
+.person_money{
+    display: flex;
+    border-bottom: 1rpx solid #d1d1d1;
+}
+.person_money_l{
+    flex: 1;
+    border-right: 1rpx solid #d1d1d1;
+    text-align: center;
+    color: #fd0c3f;
+}
+.person_money_r{
+    flex: 1;
+    text-align: center;
+    color: #fd0c3f;
+}
+.cash_btn{
+    width: 100rpx;
+    height: 40rpx;
+    border: none;
+    background-color: #fd0c3f;
+    font-size: 24rpx;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 28rpx;
+    border-radius: 6rpx;
+    line-height: 40rpx;
+    margin-bottom: 28rpx;
+}
+.cash_num{
+    font-size: 48rpx;
+    margin-top: 36rpx;
+    margin-bottom: 28rpx;
+}
+.cash_desc{
+    font-size: 24rpx;
+}
+.TB_orders{
+    display: flex;
+    width: 100%;
+    height:80rpx;
+    line-height: 80rpx;
+    color: #333;
+    font-size: 32rpx;
+    border-bottom: 1rpx solid #d1d1d1;
+}
+.TB_title{
+    flex: 1;
+    text-indent: 1em;
+}
+.TB_more{
+    flex: 1;
+    text-align: right;
+}
+.order_mess{
+    width: 100%;
+    height: 100rpx;
+    border-bottom: 1rpx solid #d1d1d1;
+    display: flex;
+}
+.mess_btn{
+    flex: 1;
+    text-align: center;
+    line-height: 100rpx;
+    font-size: 26rpx;
+    color: #333;
+}
+.mess_btn:nth-child(2){
+    border-left: 1rpx solid #d1d1d1;
+    border-right: 1rpx solid #d1d1d1;
+}
+.friends{
+    width: 100%;
+    height: 100rpx;
+    border-bottom: 1px solid #d1d1d1;
+    background-color: #fff;
+    line-height: 100rpx;
+    font-size: 26rpx;
+    overflow: hidden;
+    color: #333;
+    display: flex;
+}
+.friends_desc{
+    text-indent: 1em;
+    flex: 1;
+}
+.friends_right{
+    flex: 1;
+    text-align: right;
+    margin-right: 32rpx;
+    font-size: 30rpx;
+}
+.person_more{
+    width: 100%;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+    color: #333;
+    font-size: .34666rem;
+    font-size: 26rpx;
+}
+.person_more_list{
+    width: 50%;
+    float: left;
+    height: 180rpx;
+    text-align: center;
+    line-height: 180rpx;
+    border-right: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    box-sizing: border-box;
+}
