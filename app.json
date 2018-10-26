@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/person/person",
+    "pages/logs/logs",
+    "pages/goods/goods",
+    "pages/orders/orders"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "奖购",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#333",
+    "selectedColor":"#fd0c3f",
+    "borderStyle":"#000",
+    "list":[{
+      "selectedIconPath":"images/home-click.png",
+      "iconPath":"images/home.png",
+      "pagePath":"pages/index/index",
+      "text":"首页"
+    },
+    {
+      "selectedIconPath":"images/search-click.png",
+      "iconPath":"images/search.png",
+      "pagePath":"pages/search/search",
+      "text":"搜索" 
+    },
+    {
+      "selectedIconPath":"images/person-click.png",
+      "iconPath":"images/person.png",
+      "pagePath":"pages/person/person",
+      "text":"个人中心" 
+    }]
+  
+  }
+}
