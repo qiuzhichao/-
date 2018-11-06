@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     wx.request({
-      url:"http://51yuexue.com/index/user/center",
+      url:"xxx",
       success:res=>{
         console.log(res);
         this.setData({
