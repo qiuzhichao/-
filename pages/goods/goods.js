@@ -27,7 +27,7 @@ Page({
       param:id.split(",")[1].split(']')[0]
     })
     wx.request({
-      url:'https://51yuexue.com/index/goods/detail?param='+that.data.id+'&num_iid='+that.data.param,
+      url:'xxx',
       success:res=>{
         console.log(res)
         that.setData({
