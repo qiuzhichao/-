@@ -48,7 +48,7 @@ Page({
       })
     };
     wx.request({
-      url:"https://51yuexue.com/index/home/index",
+      url:"xxx",
       success:res => {
         var that=this;
         that.setData({
@@ -84,7 +84,7 @@ Page({
         title:'玩命加载中~'
       })
       wx.request({
-        url:"http://51yuexue.com/index/home/getmore?page="+that.data.page,
+        url:"xxx",
         method:"get",
         success:res=>{
           console.log(res)
